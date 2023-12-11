@@ -12,7 +12,7 @@ import { HomeComponent } from './modules/home/home.component';
 import { LoginComponent } from './modules/login/login.component';
 import { AboutComponent } from './modules/about/about.component';
 import { VideoComponent } from './modules/home/video/video.component';
-import { MeetingsComponent } from './modules/home/meetings/meetings.component';
+import { BannerComponent } from './modules/home/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { MeetingsComponent } from './modules/home/meetings/meetings.component';
     LoginComponent,
     AboutComponent,
     VideoComponent,
-    MeetingsComponent
+    BannerComponent
   ],
   imports: [
     BrowserModule,
