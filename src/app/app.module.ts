@@ -9,6 +9,10 @@ import { HeaderComponent } from './structure/header/header.component';
 import { NavComponent } from './structure/header/nav/nav.component';
 import { FooterComponent } from './structure/footer/footer.component';
 import { HomeComponent } from './modules/home/home.component';
+import { LoginComponent } from './modules/login/login.component';
+import { AboutComponent } from './modules/about/about.component';
+import { VideoComponent } from './modules/home/video/video.component';
+import { MeetingsComponent } from './modules/home/meetings/meetings.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { HomeComponent } from './modules/home/home.component';
     HeaderComponent,
     NavComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    AboutComponent,
+    VideoComponent,
+    MeetingsComponent
   ],
   imports: [
     BrowserModule,
