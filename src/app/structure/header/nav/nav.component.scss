@@ -1,0 +1,17 @@
+.header-area {
+    background-color: rgba(250, 250, 250, 0.55) !important;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+
+    button.btn {
+
+        a {
+            white-space: nowrap;
+            color: #ffffff;
+        }
+    }
+}

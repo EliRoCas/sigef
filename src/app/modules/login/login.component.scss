@@ -1,3 +1,18 @@
-:host {
-    color: white;
+.social-network-login {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
 }
+.contact-us{
+    padding-bottom: 5rem;
+}
+
+section.contact-us #contact input {
+    font-size: 1.4rem;
+}
+
+// .btn {
+//     margin-block: auto ;
+//     padding: 0.5rem;
+// }

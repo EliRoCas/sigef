@@ -1,16 +1,30 @@
+<!--Header area-->
 <app-header></app-header>
 
-<section class="upcoming-meetings" id="meetings">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <router-outlet></router-outlet>
+<section class="section main-banner" id="top" data-section="section1">
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/images/video-rosa-4.mp4" type="video/mp4" />
+  </video>
+
+  <div class="video-overlay header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="caption">
+            <h2 class="justify-content-center slogan">"Cultivando finanzas, una rosa a la vez"</h2>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<app-about></app-about>
 
-<section class="contact-us" id="contact">
-  <app-footer></app-footer>
-</section>
+<app-sgfservices></app-sgfservices>
+
+<app-login></app-login>
+<app-soporte></app-soporte>
+
+<app-footer></app-footer>
+<router-outlet></router-outlet>
